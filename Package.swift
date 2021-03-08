@@ -12,7 +12,7 @@ let package = Package(
             targets: ["PBanner"]),
     ],
     dependencies: [
-        .package(path: "../Connector")
+        .package(name: "Connector", url: "https://github.com/renatocardial/poc-connector.git", .branch("master"))
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
